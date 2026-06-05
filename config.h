@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Hack Nerd Font:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 10;
 
 /*
@@ -99,32 +99,32 @@ float alpha = 0.8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#282a2e",
+	"#cc6666",
+	"#b5bd68",
+	"#f0c674",
+	"#6ea2ce",
+	"#b294bb",
+	"#8bbdbe",
+	"#707880",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#373b41",
+	"#cc7070",
+	"#b8bd85",
+	"#f0c674",
+	"#81a2be",
+	"#b294bb",
+	"#a2cfc9",
+	"#c5c8c6",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#c5c8c6", /* default foreground colour */
+	"#1d1f21", /* default background colour */
 };
 
 
